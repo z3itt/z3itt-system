@@ -43,7 +43,6 @@ Kullanıcıların eğlenmesi ve kendi aralarında rekabet etmesi için ekonomi o
 - `/ekonomi slot <miktar>` : Klasik slot makinesi oyunu.
 - `/ekonomi sweetbonanza <miktar>` : Eğlenceli çark ve kazanç katlama oyunu.
 - `/ekonomi blackjack <miktar>` : Dağıtıcıya karşı oynanan popüler iskambil oyunu (21).
-- `/ekonomi kumarbaz` : Tüm paranızla büyük bir bahis oynarsınız (Ya hep ya hiç).
 
 ### 🎙️ Ses ve Geçici Oda Komutları (`/ses`)
 Özel ses kanalları oluşturma ve istatistik takip araçları.
