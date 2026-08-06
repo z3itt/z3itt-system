@@ -88,4 +88,4 @@ Herkesin kullanabileceği istatistik ve bilgi komutları.
    *Bot aktif olduğunda konsolda onay mesajını göreceksiniz ve slash komutları Discord'a senkronize edilecektir.*
 
 ---
-*Bu bot, [Z 3 İ T T Sistem] tarafından özenle geliştirilmiş ve yönetilmektedir.*
+*Bu bot, Z 3 İ T T tarafından özenle geliştirilmiş ve yönetilmektedir.*
