@@ -1,33 +1,3 @@
-"""
-=============================================================================
-  901 SİSTEM BOT — PREFIX'TEN SLASH COMMAND'E TAM MİGRASYON
-  Kütüphane : discord.py (app_commands + Cogs)
-  Yazar      : Migrasyon Asistanı
-=============================================================================
-
-DEĞİŞİKLİK ÖZETİ
-─────────────────────────────────────────────────────────────────────────────
-  ÖNCE (Prefix)          →   SONRA (Slash)
-  @bot.command()         →   @app_commands.command()  (Cog içinde)
-  ctx: commands.Context  →   interaction: discord.Interaction
-  ctx.send(...)          →   interaction.response.send_message(...)
-  ctx.author             →   interaction.user
-  ctx.guild              →   interaction.guild
-  commands.Greedy[Member]→   member1, member2, ... (ayrı parametreler)
-  aliases=[...]          →   Yok — alternatif adlar yorum olarak belirtildi
-
-KOMUT GRUPLARI (Slash Grupları)
-─────────────────────────────────────────────────────────────────────────────
-  /ekonomi  → bakiye, daily, coinflip, slot, gonder, soy, sweetbonanza,
-               blackjack, kumarbaz
-  /mod      → ban, kick, unban, sustur, susturkaldir, temizle, clearall,
-               rolver, rolal, rolverall
-  /ses      → gir, cik, sure, siralama, kilit, kilitac, cek
-  /admin    → beyazliste, beyazlisteliste, parabas, parasil
-  Tekil     → /rank, /stats, /profil, /owner, /yardim, /adminmenu
-=============================================================================
-"""
-
 # ─────────────────────────────────────────────────────────────────────────────
 # IMPORTS
 # ─────────────────────────────────────────────────────────────────────────────
